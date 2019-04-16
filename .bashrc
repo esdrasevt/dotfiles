@@ -1,2 +1,2 @@
-alias config='/usr/bin/git --git-dir=/Users/eddieteixeira/.cfg/ --work-tree=/Users/eddieteixeira'
+alias config='/usr/bin/git --git-dir=/Users/eddie/.cfg/ --work-tree=/Users/eddie'
 alias find="grep -rnw -e"

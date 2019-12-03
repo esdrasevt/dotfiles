@@ -16,6 +16,8 @@ Plugin 'mxw/vim-jsx'
 Plugin 'w0rp/ale'
 Plugin 'drewtempelmeyer/palenight.vim'
 Plugin 'itchyny/lightline.vim'
+Plugin 'junegunn/fzf.vim'
+Plugin 'airblade/vim-gitgutter'
 
 "Color schemes
 
@@ -35,6 +37,7 @@ set expandtab
 set ruler
 set number
 set relativenumber
+set redrawtime=10000
 
 " Colorscheme
 "
@@ -63,6 +66,9 @@ set laststatus=2
 
 " font
 set guifont=Menlo\ Regular:h15
+
+" add fzf to runtimepath
+set rtp+=/usr/local/opt/fzf
 
 "auto-expanding
 "

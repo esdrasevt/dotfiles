@@ -1,5 +1,14 @@
-alias up-all="vagrant up beafc24 && vagrant up 7c0848e && vagrant up 93ec550"
-alias halt-all="vagrant halt beafc24 && vagrant halt 7c0848e && vagrant halt 93ec550"
+# general
+alias composer="php /usr/local/bin/composer.phar"
+
+# vagrant
+alias up-all="vagrant up 0dad07c && vagrant up 7c0848e && vagrant up 93ec550"
+alias halt-all="vagrant halt 0dad07c && vagrant halt 7c0848e && vagrant halt 93ec550"
+
+# mobile development
+alias android-shake='adb shell input keyevent 82'
+
+# git
 alias config='/usr/bin/git --git-dir=/Users/eddie/.cfg/ --work-tree=/Users/eddie'
 
 #load starship
